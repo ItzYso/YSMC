@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تواصل اجتماعي</title>
+
+<style>
+body {
+    background: linear-gradient(135deg, #0a0f1e, #0f172a);
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    border: 1px solid gold;
+}
+
+/* 🔥 السطر الجديد */
+.subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* أنيميشن للنص */
+.subtitle span {
+    background: linear-gradient(90deg, #aaa, #fff, #aaa);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+    0% { background-position: 200%; }
+    100% { background-position: -200%; }
+}
+
+/* لوجو ماينكرافت */
+.subtitle img {
+    width: 25px;
+    height: 25px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: gold;
+}
+
+.btn {
+    display: block;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0a0f1e;
+    background: linear-gradient(135deg, #ffd700, #ff8c00);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.note {
+    font-size: 0.8rem;
+    color: #aaa;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+    
+    <!-- 🔥 السطر المتحرك مع اللوجو -->
+    <div class="subtitle">
+        <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png">
+        <span>حسابات لاعب ماين كرافت اسطوري ItzYsoYT</span>
+    </div>
+
+    <div class="title">📱 تواصل اجتماعي</div>
+    <p>تابعني على المنصات المختلفة</p>
+
+</div>
+
+<a href="https://youtube.com/@itzysoyt?si=DqoVuXkIUeLqu58H" target="_blank" class="btn">
+    ▶️ قناتي على يوتيوب
+</a>
+
+<a href="https://discord.gg/ehuRV5qeJ8" target="_blank" class="btn">
+    💬 سيرفر ديسكورد
+</a>
+
+<div class="note">
+    شكراً لدعمك ❤️
+</div>
+
+</div>
+
+</body>
+</html>
